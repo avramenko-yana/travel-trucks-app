@@ -1,0 +1,64 @@
+/* CSS Variables */
+:root {
+  --primary-red: #E44848; /* --color-button */
+  --primary-red-hover: #D84343; /* --color-button-hover */
+  --primary-yellow: #FFC531; /* --color-rating */
+  
+  --main-black: #101828; /* --color-main-text */
+  --secondary-black: #475467; /* --color-text */
+  
+  --background-grey: #F7F7F7; /* --color-header, --color-inputs */
+  --light-grey: #F2F4F7; /* --color-badges */
+  --white: #FFFFFF;
+  
+  --border-color: #DADDE1;
+  --backdrop-color: rgba(17, 18, 19, 0.4); /* Збережено з попередньої версії */
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* Basic Reset and Global Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--main-black);
+  background-color: var(--white);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input, textarea {
+    box-sizing: border-box;
+}

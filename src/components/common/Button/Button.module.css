@@ -1,0 +1,29 @@
+.button {
+  padding: 16px 40px;
+  border-radius: 200px;
+  background-color: var(--primary-red);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+  transition: background-color var(--transition-duration) var(--transition-timing-function);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--primary-red-hover);
+}
+
+.secondary {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--main-black);
+  transition-property: border-color;
+}
+
+.secondary:hover,
+.secondary:focus {
+  background-color: transparent;
+  border-color: var(--primary-red);
+}

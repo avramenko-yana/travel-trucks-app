@@ -1,0 +1,64 @@
+ .container {
+  display: flex;
+  gap: 24px;
+}
+
+.reviewsColumn {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.formColumn {
+  width: 448px;
+}
+ 
+
+.reviewerInfo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--light-grey);
+  color: var(--primary-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.rating {
+  display: flex;
+  gap: 4px;
+}
+
+.starIcon {
+  width: 16px;
+  height: 16px;
+  fill: var(--light-grey); /* Unfilled star color */
+  stroke: var(--primary-yellow);
+}
+
+.filledStar {
+  fill: var(--primary-yellow); /* Filled star color */
+}
+
+.comment {
+  color: var(--secondary-black);
+  line-height: 1.5;
+}
